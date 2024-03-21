@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content1
+{
+height: max-content;
+width: 100%;
+background-color: red;
+padding: 15px;
+}
+.content1 nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px;
+
+}
+.content1 nav a:hover
+{
+    background-color: white;
+    color: red;
+transition: 0.2s;
+
+}
+.content2
+{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(224, 0, 0);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content2 h1
+{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 20px;
+}
+.content2 p a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.content2 p
+{
+    font-weight: 600;
+    margin:20px ;
+}
+.content2 button
+{
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.content3 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.part1 p{
+    width: 500px;
+}
+.part1 .container
+{
+    margin: 15px 0px;
+    color: #afafaf;
+    width: 500px;
+}
+ .part1 h1
+{
+    font-weight: 100;
+    font-size: 50px;
+    margin: 15px 0px;
+}
+.content4
+{
+    width: 100%;
+background-color: #eeeeee;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+.content5
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 54, 54);
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content6
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #afafaf;
+}
+.content6 .container2
+{
+    margin: 20px 0px;
+}
+.fa-brands
+{
+    margin: 0px 20px;
+}
